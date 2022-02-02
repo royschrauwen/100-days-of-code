@@ -57,15 +57,20 @@ main {
     background-color: var(--clr-white);
     border-radius: 1.25rem;
     padding: 1rem;
-
+    max-width: 20rem;
 }
 
 .qrcode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .qrcode img {
     width: 100%;
     border-radius: .625rem;
+    max-height: 18rem;
+    max-width: 18rem;
 }
 
 .text {
