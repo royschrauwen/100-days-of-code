@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+## Day 4: Tuesday, February 2, 2022
+
+![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/Day_4/screenshot_day4.png?raw=true)
+
+**Today's Progress**
+Today I completed another Frontend Mentor Challenge. I only had to use some HTML and CSS, so it was a quick and fun excersise. I used a Mobile-First approach and later tried to adapt the styling to a Desktop view. Because the card had the same look on both devices, I only had to change a couple of lines.
+
+**Repo**: https://github.com/royschrauwen/100-days-of-code/tree/master/Day_4
+
+  
+
+**Live Demo**: https://royschrauwen.github.io/100-days-of-code/Day_4/
+
 ## Day 3: Tuesday February 1 2022
 
   **Today's Progress**: Some education on Design Principles and some JavaScript-coding with a tutorial.
