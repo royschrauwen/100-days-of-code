@@ -180,6 +180,7 @@ h1 {
     margin-bottom: 1rem;
     color: var(--clr-neutral-line);
     border-top: 1px solid var(--clr-neutral-line);
+    background-color: var(--clr-neutral-line);
     /* height:1px; */
 }
 
