@@ -214,7 +214,7 @@ h1:hover, .creator-name:hover {
     .card {
         width: 21.875rem;
         height: 37.25rem;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         
     }
 
