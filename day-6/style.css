@@ -242,7 +242,7 @@ h1:hover, .creator-name:hover {
         margin-top: 1.5rem;
     }
 
-    .eth, .time {
+    .eth, .time, .creator {
         font-size: 1rem;
     }
 
