@@ -8,7 +8,7 @@
 ![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/day-6/screenshot-day6.png?raw=true)
 
 **Today's Progress**
-Today I completed another Frontend Mentor Challenge. I only had to use some HTML and CSS, so it was a quick and fun excersise. I used a Mobile-First approach and later tried to adapt the styling to a Desktop view. Because the card had the same look on both devices, I only had to change a couple of lines.
+Another fun little card with this time so hover effects. Getting it pixel perfect took a bit of time because the desktop version has slightly bigger padding between the elements. In teh end it all worked out and the challenge is completed!
 
 **Repo**: https://github.com/royschrauwen/100-days-of-code/tree/master/day-6
 
