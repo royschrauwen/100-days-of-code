@@ -214,12 +214,10 @@ h1:hover, .creator-name:hover {
     .card {
         width: 21.875rem;
         height: 37.25rem;
-        justify-content: baseline;
+        justify-content:flex-start;
         
     }
 
-.card-top {
-}
 
     .card-bottom {
         margin-top: 1.5rem;
