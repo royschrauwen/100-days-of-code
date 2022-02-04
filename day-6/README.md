@@ -3,7 +3,7 @@
 
   
 
-## Day 4: Tuesday, February 2, 2022
+## Day 6: Tuesday, February 6, 2022
 
 ![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/Day_4/screenshot_day4.png?raw=true)
 

@@ -213,6 +213,7 @@ h1:hover, .creator-name:hover {
 @media only screen and (min-width: 500px) {
     .card {
         width: 21.875rem;
+        height: 37.25rem;
     }
 
     .image {
