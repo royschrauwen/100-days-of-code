@@ -11,6 +11,7 @@
   /* TYPOGRAPHY */
   --fs-mobile-h1: 2.5rem;
   --ls-modile-h1: -0.0284rem;
+  --fs-mobile-h2: 2rem;
 
   --font-fs-1: 1.25rem;
   --font-lh-1: 170%;
@@ -23,7 +24,7 @@
 }
 
 body {
-  padding: 2.5rem 1.5rem;
+  /* padding: 2.5rem 1.5rem; */
   background-image: url("./starter-code/assets/bg-main-mobile.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,7 +32,7 @@ body {
 }
 
 header {
-  margin-bottom: 4rem;
+  padding: 2.5rem 1.5rem 2rem;
 }
 
 h1,
@@ -48,20 +49,99 @@ h1 {
 }
 
 .hero {
-  margin-bottom: 4.25rem;
+  margin-bottom: 2.75rem;
+  padding: 2rem 1.5rem;
 }
 
 .hero p {
   font-size: 16px;
   line-height: 162%;
-  /* or 162% */
 }
 
 h2 {
-  font-size: 2.5rem;
-  line-height: 130%;
+  font-size: var(--fs-mobile-h2);
+  line-height: 125%;
+  margin-bottom: 0.375em;
+  color: var(--clr-light);
 }
 
 .button {
   border-radius: 0.75rem;
+  display: block;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 15px auto;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 178%;
+  text-align: center;
+  letter-spacing: -0.18px;
+  flex-grow: 0;
+}
+
+.button__icon {
+  width: 0.9em;
+  height: 0.9em;
+}
+
+.ios {
+  background: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+.android {
+  background: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+.app-information {
+  background-color: var(--clr-dark);
+  border-radius: 0.75rem;
+  background-image: url("./starter-code/assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 75%;
+}
+
+.app-information img {
+  width: 56%;
+  margin: 8rem auto;
+  transform: translateY(-6.25rem);
+}
+
+.premiumeq {
+  background: var(--clr-orange);
+  border-radius: 0.75rem;
+  margin-left: 0;
+  padding: 3rem 2.25rem;
+  color: var(--clr-light);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 156%;
+  margin-top: -11rem;
+}
+
+.premiumeq > p {
+  margin-bottom: 2.25rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 4.0625rem;
+  line-height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.price-small {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.2px;
+  margin-left: 1rem;
 }
