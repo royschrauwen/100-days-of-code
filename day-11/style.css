@@ -9,6 +9,9 @@
   --clr-dark: #191826;
 
   /* TYPOGRAPHY */
+  --fs-mobile-h1: 2.5rem;
+  --ls-modile-h1: -0.0284rem;
+
   --font-fs-1: 1.25rem;
   --font-lh-1: 170%;
   --font-fs-2: 1rem;
@@ -19,6 +22,18 @@
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+body {
+  padding: 2.5rem 1.5rem;
+  background-image: url("./starter-code/assets/bg-main-mobile.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left -200px;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
 h1,
 h2 {
   font-weight: 800;
@@ -26,9 +41,20 @@ h2 {
 }
 
 h1 {
-  font-size: 5.5rem;
-  line-height: 100%;
-  letter-spacing: -0.0625rem;
+  font-size: var(--fs-mobile-h1);
+  line-height: 120%;
+  letter-spacing: var(--ls-modile-h1);
+  margin-bottom: 0.5em;
+}
+
+.hero {
+  margin-bottom: 4.25rem;
+}
+
+.hero p {
+  font-size: 16px;
+  line-height: 162%;
+  /* or 162% */
 }
 
 h2 {
