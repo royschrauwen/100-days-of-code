@@ -74,18 +74,16 @@ h2 {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  margin: 15px auto;
+  margin: 0.9375rem auto;
   font-weight: bold;
   font-size: 1.125rem;
   line-height: 178%;
   text-align: center;
   letter-spacing: -0.18px;
-  flex-grow: 0;
 }
 
 .button__icon {
-  width: 0.9em;
-  height: 0.9em;
+  margin-right: 0.5rem;
 }
 
 .ios {
@@ -107,7 +105,7 @@ h2 {
   background-size: 75%;
 }
 
-.app-information img {
+.app-image {
   width: 56%;
   margin: 8rem auto;
   transform: translateY(-6.25rem);
@@ -144,4 +142,34 @@ h2 {
   line-height: 160%;
   letter-spacing: -0.2px;
   margin-left: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 1.5rem;
+}
+
+.footer-text {
+  margin-bottom: 4rem;
+  font-size: 1rem;
+  line-height: 162%;
+}
+
+.footer-text img {
+  margin-bottom: 2rem;
+}
+
+.footer-text a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--clr-dark);
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+}
+.footer-socials img {
+  margin-right: 1.25rem;
 }

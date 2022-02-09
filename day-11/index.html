@@ -27,7 +27,7 @@
         </section>
         <section class="app-information">
             <!-- <div class="app-images"> -->
-            <img src="./starter-code/assets/illustration-app.png" alt="">
+            <img class="app-image" src="./starter-code/assets/illustration-app.png" alt="">
             <!-- </div> -->
             <div class="premiumeq">
                 <h2>Premium EQ</h2>
@@ -38,12 +38,14 @@
                 <p class="price">$4 <span class="price-small">/ month</span></p>
 
                 <a href="#" target="_blank" class="button ios">
-                    <img class="button__icon" src="./starter-code/assets/icon-apple.svg" alt="">
+                    <div class="button__icon">
+                        <img src="./starter-code/assets/icon-apple.svg" alt="">
+                    </div>
                     iOS Download
                 </a>
                 <a href="#" target="_blank" class="button android">
                     <img class="button__icon" src="./starter-code/assets/icon-android.svg" alt="">
-                    Android Download
+                    <span>Android Download</span>
                 </a>
             </div>
         </section>
@@ -51,12 +53,18 @@
     </main>
 
     <footer>
-        <img src="./starter-code/assets/logo.svg" alt="equalizer logo">
-        All rights reserved © Equalizer 2021
-        Have any problems? Contact us via social media or email us at equalizer@example.com
-        <img src="./starter-code/assets/icon-facebook.svg" alt="Facebook">
-        <img src="./starter-code/assets/icon-instagram.svg" alt="Instagram">
-        <img src="./starter-code/assets/icon-twitter.svg" alt="Twitter">
+        <div class="footer-text">
+            <img src="./starter-code/assets/logo.svg" alt="equalizer logo">
+            All rights reserved © Equalizer 2021<br>
+            Have any problems? Contact us via social media or email us at
+            <a href="mailto:equalizer@example.com">equalizer@example.com</a>
+
+        </div>
+        <div class="footer-socials">
+            <img src="./starter-code/assets/icon-facebook.svg" alt="Facebook">
+            <img src="./starter-code/assets/icon-instagram.svg" alt="Instagram">
+            <img src="./starter-code/assets/icon-twitter.svg" alt="Twitter">
+        </div>
     </footer>
 
 
