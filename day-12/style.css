@@ -390,12 +390,14 @@ footer {
 
   .app-information {
     height: 500px;
+    background-position: 40% -50px;
+    background-size: 35%;
   }
   .premiumeq {
     width: 31vw;
     margin: 0;
     margin-right: 16.25rem;
-    transform: translateX(600px) translateY(-650px);
+    transform: translateX(580px) translateY(-630px);
   }
 
   .premiumeq > p:nth-child(2) {
