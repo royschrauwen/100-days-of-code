@@ -24,7 +24,6 @@
 }
 
 body {
-  /* padding: 2.5rem 1.5rem; */
   background-image: url("./starter-code/assets/bg-main-mobile.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -144,12 +143,6 @@ h2 {
   margin-left: 1rem;
 }
 
-/* footer {
-  display: flex;
-  flex-direction: column;
-  padding: 5rem 1.5rem;
-} */
-
 footer {
   display: grid;
   grid-template-areas:
@@ -182,11 +175,9 @@ footer {
 
 .logo--footer {
   margin-bottom: 2em;
-  /* margin-bottom: 2rem; */
 }
 
 .footer--logo {
-  /* background-color: pink; */
   align-self: baseline;
 }
 
@@ -205,7 +196,6 @@ footer {
   flex-direction: row;
 }
 .footer-socials img {
-  /* margin-right: 1.25rem; */
 }
 
 .button:hover {
@@ -311,12 +301,6 @@ footer {
     z-index: 2;
   }
 
-  /* footer {
-    padding: 0;
-    margin: 0;
-    padding-top: 5.625rem;
-  } */
-
   footer {
     margin-top: 12rem;
     padding: 0;
@@ -407,7 +391,6 @@ footer {
 
   footer {
     grid-template-areas: "footer-logo footer-text footer-socials";
-    /* background-color: aqua; */
     padding: 0;
     margin-top: 12rem;
   }
@@ -415,21 +398,11 @@ footer {
   .footer-text {
     width: 55%;
     margin-left: 8.5625rem;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
-    /* background-color: red; */
-    /* margin: 0; */
   }
 
   .footer--logo {
-    /* background-color: pink; */
     margin: 0;
     align-self: baseline;
-  }
-
-  .footer-socials {
-    /* background-color: greenyellow; */
   }
 }
 
