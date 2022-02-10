@@ -157,27 +157,24 @@ footer {
     "footer-text"
     "footer-socials";
   padding: 5rem 1.5rem;
-  background-color: pink;
   grid-template-rows: auto;
   grid-template-columns: auto;
+  margin-bottom: 4rem;
 }
 
 .footer--logo {
   grid-area: footer-logo;
-  background-color: red;
 }
 
 .footer-text {
   grid-area: footer-text;
   font-size: 1rem;
   line-height: 162%;
-  background-color: greenyellow;
   margin-bottom: 4rem;
 }
 
 .footer-socials {
   grid-area: footer-socials;
-  background-color: cyan;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -334,6 +331,16 @@ footer {
 
   .footer-socials {
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1024px) {
+  .premiumeq {
+    transform: translateY(-600px) translateX(350px);
+  }
+
+  .footer-socials {
+    justify-content: flex-end;
   }
 }
 
