@@ -144,6 +144,7 @@ h2 {
 }
 
 footer {
+  display: -ms-grid;
   display: grid;
   grid-template-areas:
     "footer-logo"
