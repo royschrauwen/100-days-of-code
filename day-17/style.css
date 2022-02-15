@@ -350,7 +350,7 @@ footer {
   }
 
   header {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
   }
 
   .hero {
@@ -388,7 +388,7 @@ footer {
     width: 31vw;
     margin: 0;
     margin-right: 16.25rem;
-    transform: translateX(580px) translateY(-630px);
+    transform: translateX(580px) translateY(-740px);
   }
 
   .premiumeq > p:nth-child(2) {
