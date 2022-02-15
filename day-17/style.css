@@ -350,7 +350,7 @@ footer {
   }
 
   header {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
   }
 
   .hero {
@@ -372,7 +372,7 @@ footer {
   .app-image {
     width: 27%;
     margin: 13rem auto;
-    transform: translateY(-12rem);
+    transform: translateY(-11rem);
     margin-left: 6rem;
     z-index: 1;
   }
@@ -381,7 +381,7 @@ footer {
     height: 625px;
     background-position: 39% -40px;
     background-size: 27%;
-    margin-top: 18rem;
+    margin-top: 16.75rem;
   }
 
   .premiumeq {
