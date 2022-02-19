@@ -1,0 +1,64 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+
+## Typography
+
+### Body Copy
+
+- Font size (quote): 28px
+
+### Font
+
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 800 */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --clr-primary-cyan: hsl(193, 38%, 86%);
+  --clr-primary-green: hsl(150, 100%, 66%);
+
+  --clr-neutral-grayblue: hsl(217, 19%, 38%);
+  --clr-neutral-darkgrayblue: hsl(217, 19%, 24%);
+}
+
+body {
+  background-color: var(--clr-neutral-darkgrayblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: var(--clr-neutral-grayblue);
+  margin: 1rem;
+  border-radius: 10px;
+}
