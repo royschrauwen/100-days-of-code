@@ -78,7 +78,7 @@ body {
   margin-top: 2.5rem;
 }
 
-.advice-text {
+#advice-text {
   color: var(--clr-primary-cyan);
   font-size: 1.5rem;
   line-height: 2.0625rem;
@@ -87,11 +87,11 @@ body {
   margin: 1.5rem;
 }
 
-.advice-text::before {
+#advice-text::before {
   content: open-quote;
 }
 
-.advice-text::after {
+#advice-text::after {
   content: close-quote;
 }
 
@@ -144,7 +144,7 @@ button:hover {
     top: calc(50% - 18px / 2 - 125px);
   }
 
-  .advice-text {
+  #advice-text {
     margin: 1.5rem 3rem;
     font-size: 1.75rem;
     line-height: 2.375rem;
