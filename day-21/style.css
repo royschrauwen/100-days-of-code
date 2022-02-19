@@ -92,6 +92,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 1rem;
+  width: 100%;
 }
 
 button {
