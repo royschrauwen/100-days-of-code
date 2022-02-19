@@ -9,6 +9,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>RS | Frontend Mentor | Advice generator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,13 +20,11 @@
   <div class="container">
 
     <h1 class="advice-header">
-      Advice #<span id="advice-number">117</span>
+      Advice #<span class="advice-number" id="advice-number">117</span>
     </h1>
 
-    <blockquote id="advice-text">
-      It is easy to sit up and take notice, what's difficult is getting up and taking
-      action.
-
+    <blockquote class="advice-text" id="advice-text">
+      It is easy to sit up and take notice, what's difficult is getting up and taking action.
     </blockquote>
 
     <div class="line"></div>
@@ -34,7 +35,7 @@
 
   </div>
 
-  <script src="./script.js"></script>
+  <script src="./script.js" defer></script>
 </body>
 
 </html>
