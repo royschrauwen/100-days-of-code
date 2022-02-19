@@ -124,7 +124,7 @@ button:hover {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
   .container {
-    max-width: 37.5vw;
+    max-width: 33.75rem;
     border-radius: 0.9375rem;
   }
 
@@ -157,4 +157,7 @@ button:hover {
 
 @media (min-width: 1281px) {
   /* hi-res laptops and desktops */
+  .container {
+    max-width: 37.5vw;
+  }
 }
