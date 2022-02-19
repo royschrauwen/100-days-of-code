@@ -81,9 +81,15 @@ button {
   width: 4rem;
 }
 
-button:hover {
+button:hover,
+button:focus {
   box-shadow: 0 0 2.5rem var(--main-clr-primary-green);
   cursor: pointer;
+}
+
+button:focus {
+  outline: auto 2px Highlight;
+  outline: auto 5px -webkit-focus-ring-color;
 }
 
 @media (min-width: 641px) {
