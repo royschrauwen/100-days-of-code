@@ -105,3 +105,49 @@ button:hover {
   cursor: pointer;
   box-shadow: 0px 0px 2.5rem var(--clr-primary-green);
 }
+
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  body {
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 37.5vw;
+    border-radius: 0.9375rem;
+  }
+
+  .advice-header {
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
+    letter-spacing: 4.08571px;
+    top: calc(50% - 18px / 2 - 125px);
+  }
+
+  .advice-container {
+    margin: 1.5rem 3rem;
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+    letter-spacing: -0.0187rem;
+  }
+}
