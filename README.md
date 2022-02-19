@@ -20,6 +20,10 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 **Live Demo**: https://royschrauwen.github.io/100-days-of-code/day-21/
 
+## Day 20: Friday, February 18, 2022
+
+## Day 19: Thursday, February 17, 2022
+
 ## Day 18: Wednesday, February 16, 2022
 
 ![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/day-18/day-18-screenshot.jpg?raw=true)
@@ -30,6 +34,32 @@ I wanted to make something using HTML, CSS and JavaScript and I wanted to make s
 **Repo**: https://github.com/royschrauwen/pomodoro-timer
 
 **Live Demo**: https://royschrauwen.github.io/pomodoro-timer/
+
+## Day 17: Monday, February 15, 2022
+
+## Day 16: Sunday, February 14, 2022
+
+## Day 15: Saturday, February 13, 2022
+
+## Day 14: Friday, February 12, 2022
+
+## Day 13: Thursday, February 11, 2022
+
+## Day 12: Wednesday, February 10, 2022
+
+## Day 11: Tuesday, February 9, 2022
+
+## Day 10: Monday, February 8, 2022
+
+## Day 9: Sunday, February 7, 2022
+
+## Day 8: Saturday, February 6, 2022
+
+## Day 7: Friday, February 5, 2022
+
+## Day 6: Thursday, February 4, 2022
+
+## Day 5: Wednesday, February 3, 2022
 
 ## Day 4: Tuesday, February 2, 2022
 
