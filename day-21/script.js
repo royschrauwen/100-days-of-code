@@ -17,16 +17,22 @@ const adviceButton = document.querySelector("#advice-button");
 
 const url = "https://api.adviceslip.com/advice";
 
-adviceButton.addEventListener("click", showNewAdvice);
+adviceButton.addEventListener("click", getNewAdvice);
 
-function showNewAdvice() {
+function getNewAdvice() {
   fetch(url)
     .then((response) => {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
-      adviceNumber.textContent = data.slip.id;
-      adviceText.textContent = data.slip.advice;
+      displayAdvice(data);
+    })
+    .catch(() => {
+      console.error("Problem with getting data from API");
     });
+
+  function displayAdvice(data) {
+    adviceNumber.textContent = data.slip.id;
+    adviceText.textContent = data.slip.advice;
+  }
 }
