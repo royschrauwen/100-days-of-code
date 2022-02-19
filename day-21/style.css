@@ -88,6 +88,10 @@ body {
 }
 
 .line {
+  background-image: url("./images/pattern-divider-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1rem;
 }
 
 button {
@@ -100,6 +104,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   transform: translateY(50%);
+  transition: all 0.15s ease-in-out;
 }
 
 button:hover {
@@ -135,6 +140,10 @@ button:hover {
     font-size: 1.75rem;
     line-height: 2.375rem;
     letter-spacing: -0.0187rem;
+  }
+
+  .line {
+    background-image: url("./images/pattern-divider-desktop.svg");
   }
 }
 
