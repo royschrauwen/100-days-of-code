@@ -1,154 +1,109 @@
-/* # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Light Cyan: hsl(193, 38%, 86%)
-- Neon Green: hsl(150, 100%, 66%)
-
-### Neutral
-
-- Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
-
-## Typography
-
-### Body Copy
-
-- Font size (quote): 28px
-
-### Font
-
-- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
-- Weights: 800 */
-
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
-
 *,
-*::before,
-*::after {
+*::after,
+*::before {
   box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   margin: 0;
   padding: 0;
-  font-weight: 800;
-  font-family: "Manrope", sans-serif;
 }
 
 :root {
-  --clr-primary-cyan: hsl(193, 38%, 86%);
-  --clr-primary-green: hsl(150, 100%, 66%);
-
-  --clr-neutral-grayblue: hsl(217, 19%, 38%);
-  --clr-neutral-darkgrayblue: hsl(217, 19%, 24%);
+  --main-clr-neutral-darkgrayblue: hsl(218, 23%, 16%);
+  --main-clr-neutral-grayblue: hsl(217, 19%, 24%);
+  --main-clr-primary-cyan: hsl(193, 38%, 86%);
+  --main-clr-primary-green: hsl(150, 100%, 66%);
 }
 
 body {
-  background-color: #202733;
+  align-items: center;
+  background-color: var(--main-clr-neutral-darkgrayblue);
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
 }
 .container {
-  background-color: #313a48;
-  margin: 1rem;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background-color: var(--main-clr-neutral-grayblue);
+  border-radius: 10px;
   box-shadow: 1.875rem 3.125rem 5rem rgba(0, 0, 0, 0.100202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
 }
 
 .advice-header {
-  color: var(--clr-primary-green);
-  text-transform: uppercase;
+  color: var(--main-clr-primary-green);
   font-size: 0.6875rem;
-  line-height: 0.9375rem;
-  text-align: center;
   letter-spacing: 0.2161rem;
+  line-height: 0.9375rem;
   margin-top: 2.5rem;
-}
-
-#advice-text {
-  color: var(--clr-primary-cyan);
-  font-size: 1.5rem;
-  line-height: 2.0625rem;
   text-align: center;
-  letter-spacing: -0.0163rem;
-  margin: 1.5rem;
+  text-transform: uppercase;
 }
 
-#advice-text::before {
+.advice-text {
+  color: var(--main-clr-primary-cyan);
+  font-size: 1.5rem;
+  letter-spacing: -0.0163rem;
+  line-height: 2.0625rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.advice-text::before {
   content: open-quote;
 }
 
-#advice-text::after {
+.advice-text::after {
   content: close-quote;
 }
 
 .line {
   background-image: url("./images/pattern-divider-mobile.svg");
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   height: 1rem;
   width: 100%;
 }
 
 button {
-  background-color: var(--clr-primary-green);
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  border: none;
+  background-color: var(--main-clr-primary-green);
   background-image: url(./images/icon-dice.svg);
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 50%;
+  height: 4rem;
   transform: translateY(50%);
   transition: all 0.15s ease-in-out;
+  width: 4rem;
 }
 
 button:hover {
+  box-shadow: 0 0 2.5rem var(--main-clr-primary-green);
   cursor: pointer;
-  box-shadow: 0px 0px 2.5rem var(--clr-primary-green);
-}
-
-@media (min-width: 320px) {
-  /* smartphones, iPhone, portrait 480x320 phones */
-}
-
-@media (min-width: 481px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 }
 
 @media (min-width: 641px) {
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-
   .container {
-    max-width: 33.75rem;
     border-radius: 0.9375rem;
+    max-width: 33.75rem;
   }
 
   .advice-header {
     font-size: 0.8125rem;
-    line-height: 1.125rem;
     letter-spacing: 4.08571px;
+    line-height: 1.125rem;
     top: calc(50% - 18px / 2 - 125px);
   }
 
-  #advice-text {
-    margin: 1.5rem 3rem;
+  .advice-text {
     font-size: 1.75rem;
-    line-height: 2.375rem;
     letter-spacing: -0.0187rem;
+    line-height: 2.375rem;
+    margin: 1.5rem 3rem;
   }
 
   .line {
@@ -156,16 +111,7 @@ button:hover {
   }
 }
 
-@media (min-width: 961px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
-
 @media (min-width: 1281px) {
-  /* hi-res laptops and desktops */
   .container {
     max-width: 37.5vw;
   }
