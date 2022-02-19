@@ -51,14 +51,14 @@ The designs were created to the following widths:
 }
 
 body {
-  background-color: var(--clr-neutral-darkgrayblue);
+  background-color: #202733;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 .container {
-  background-color: var(--clr-neutral-grayblue);
+  background-color: #313a48;
   margin: 1rem;
   border-radius: 10px;
   display: flex;
