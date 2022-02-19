@@ -63,7 +63,7 @@ I wanted to make something using HTML, CSS and JavaScript and I wanted to make s
 
 ## Day 4: Tuesday, February 2, 2022
 
-![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/Day_4/screenshot_day4.png?raw=true)
+![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/day-04/screenshot_day4.png?raw=true)
 
 **Today's Progress**
 Today I completed another Frontend Mentor Challenge. I only had to use some HTML and CSS, so it was a quick and fun excersise. I used a Mobile-First approach and later tried to adapt the styling to a Desktop view. Because the card had the same look on both devices, I only had to change a couple of lines.
