@@ -55,6 +55,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 .container {
   background-color: var(--clr-neutral-grayblue);
@@ -116,21 +117,6 @@ button:hover {
 
 @media (min-width: 641px) {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-}
-
-@media (min-width: 961px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
-
-@media (min-width: 1281px) {
-  /* hi-res laptops and desktops */
-  body {
-    min-height: 100vh;
-  }
 
   .container {
     max-width: 37.5vw;
@@ -150,4 +136,16 @@ button:hover {
     line-height: 2.375rem;
     letter-spacing: -0.0187rem;
   }
+}
+
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
 }
