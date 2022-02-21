@@ -43,6 +43,7 @@
             let outputData3 = removeSpaces(outputData2);
             let outputData4 = removeHashtag(outputData3);
 
+            // TODO: Refactor function getDate(input)
             let position = inputData.search(":");
             let result = inputData.substring(0, position);
             let day = result.replace(/\D/g, '')
@@ -53,6 +54,7 @@
 
         }
 
+        // TODO: Check how to make 1 big regular expression instead of making 4 functions
 
 
         function removeColon(input) {
