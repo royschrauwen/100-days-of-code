@@ -28,7 +28,7 @@
 
 ## Day 23: Friday, February 21, 2022
 
-Ik started the day with Markdown, creating the ToC on top of this README.me document.
+I started the day with Markdown, creating the ToC on top of this README.me document. Because I had to add a lot of dates to the table, I decided to create a JavaScript [ToC-Creator](https://github.com/royschrauwen/100-days-of-code/blob/master/toc-creator.html) for it, to help me convert my dates to the right anchors. It is very basic, but it works. Nonetheless I want to improve it so it is cleaner code and more useable than just for this single current task.
 
 ## Day 22: Sunday, February 20, 2022
 
