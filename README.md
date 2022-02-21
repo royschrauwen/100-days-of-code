@@ -16,7 +16,7 @@
 
 ## Day 22: Friday, February 20, 2022
 
-![Day 22](https://github.com/royschrauwen/100-days-of-code/blob/master/day-22/tweet-day-22.png?raw=true)
+![Day 22](https://github.com/royschrauwen/100-days-of-code/blob/master/day-22/tweet-day22.png?raw=true)
 
 ## Day 21: Saturday, February 19, 2022
 
