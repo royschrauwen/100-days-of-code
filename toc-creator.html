@@ -43,10 +43,16 @@
             let outputData3 = removeSpaces(outputData2);
             let outputData4 = removeHashtag(outputData3);
 
-            resultContainer.textContent = "(" + outputData4.toLowerCase() + ")";
+            let position = inputData.search(":");
+            let result = inputData.substring(0, position);
+            let day = result.replace(/\D/g, '')
+            console.log(day);
+
+            resultContainer.textContent = "[Day " + day + "](" + outputData4.toLowerCase() + ")";
 
 
         }
+
 
 
         function removeColon(input) {
