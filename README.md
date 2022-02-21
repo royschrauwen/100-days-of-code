@@ -3,17 +3,27 @@
 ## Contents
 
 - [Rules](rules.md)
+
 - [Log - click here to see my progress](log.md)
+
 - [FAQ](FAQ.md)
+
 - [Resources](resources.md)
 
 # 100 Days Of Code - Log
+
+## Day 23: Friday, February 21, 2022
+
+## Day 22: Friday, February 20, 2022
+
+![Day 22](https://github.com/royschrauwen/100-days-of-code/blob/master/day-18/tweet-day-22.png?raw=true)
 
 ## Day 21: Saturday, February 19, 2022
 
 ![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/day-21/screenshot-day21.png?raw=true)
 
 **Today's Progress**
+
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 **Repo**: https://github.com/royschrauwen/100-days-of-code/tree/master/day-21
@@ -29,6 +39,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/day-18/day-18-screenshot.jpg?raw=true)
 
 **Today's Progress**
+
 I wanted to make something using HTML, CSS and JavaScript and I wanted to make something from scratch. After some brainstorming I decided to make a Pomodoro Timer.
 
 **Repo**: https://github.com/royschrauwen/pomodoro-timer
@@ -66,6 +77,7 @@ I wanted to make something using HTML, CSS and JavaScript and I wanted to make s
 ![enter image description here](https://github.com/royschrauwen/100-days-of-code/blob/master/day-04/screenshot_day4.png?raw=true)
 
 **Today's Progress**
+
 Today I completed another Frontend Mentor Challenge. I only had to use some HTML and CSS, so it was a quick and fun excersise. I used a Mobile-First approach and later tried to adapt the styling to a Desktop view. Because the card had the same look on both devices, I only had to change a couple of lines.
 
 **Repo**: https://github.com/royschrauwen/100-days-of-code/tree/master/Day_4
