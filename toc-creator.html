@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS | ToC Creator</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>RS Github ToC-Creator</h1>
+    <p>I made this small script to help myself create a ToC for the README.md on this 100 days of code challenge.</p>
+    <div>
+        <textarea name="" id="inputData" cols="30" rows="10"></textarea>
+        <button id="convert">Convert Dates to MarkDown Links</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script>
+        console.log('test');
+        document.querySelector('#convert').addEventListener('click', convertDates);
+
+
+
+        function convertDates() {
+            let inputData = document.querySelector('#inputData').value;
+            let resultContainer = document.querySelector('#result');
+
+            let pattern = /,/g;
+            let outputData1 = removeColon(inputData);
+            let outputData2 = removeComma(outputData1);
+            let outputData3 = removeSpaces(outputData2);
+            let outputData4 = removeHashtag(outputData3);
+
+            resultContainer.textContent = "(" + outputData4.toLowerCase() + ")";
+
+
+        }
+
+
+        function removeColon(input) {
+            let reg = /:/g;
+            return input.replaceAll(reg, "");
+        }
+
+        function removeComma(input) {
+            let reg = /,/g;
+            return input.replaceAll(reg, "");
+        }
+
+        function removeSpaces(input) {
+            return input.replaceAll(" ", "-");
+        }
+
+        function removeHashtag(input) {
+            return input.replaceAll("##-", "#");
+        }
+
+    </script>
+</body>
+
+</html>
