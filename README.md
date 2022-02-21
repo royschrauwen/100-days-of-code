@@ -10,9 +10,29 @@
 
 - [Resources](resources.md)
 
+## Table of contents
+
+- [Day 23](#day-23)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
 # 100 Days Of Code - Log
 
-## Day 23: Friday, February 21, 2022
+## Day 23
+
+### Friday, February 21, 2022
 
 ## Day 22: Friday, February 20, 2022
 
