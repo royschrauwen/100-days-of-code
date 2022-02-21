@@ -12,21 +12,17 @@
 
 ## Table of contents
 
-| Day 100 |        |        |        |        |        |        |                   |        |        |
-| ------- | ------ | ------ | ------ | ------ | ------ | ------ | ----------------- | ------ | ------ |
-|         |        |        |        |        |        |        |                   |        |        |
-|         |        |        |        |        |        |        |                   |        |        |
-|         |        |        |        |        |        |        |                   |        |        |
-|         |        |        |        |        |        |        |                   |        |        |
-|         |        |        |        |        |        |        |                   |        |        |
-|         |        |        |        |        |        |        |                   |        |        |
-|         |        |        |        |        |        |        | [Day 23](#day-23) | Day 22 | Day 21 |
-| Day 20  | Day 19 | Day 18 | Day 17 | Day 16 | Day 15 | Day 14 | Day 13            | Day 12 | Day 11 |
-| Day 10  | Day 9  | Day 8  | Day 7  | Day 6  | Day 5  | Day 4  | Day 3             | Day 2  | Day 1  |
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
+| Day 100 |        |        |        |        |        |        |                   |                                           |        |
+| ------- | ------ | ------ | ------ | ------ | ------ | ------ | ----------------- | ----------------------------------------- | ------ |
+|         |        |        |        |        |        |        |                   |                                           |        |
+|         |        |        |        |        |        |        |                   |                                           |        |
+|         |        |        |        |        |        |        |                   |                                           |        |
+|         |        |        |        |        |        |        |                   |                                           |        |
+|         |        |        |        |        |        |        |                   |                                           |        |
+|         |        |        |        |        |        |        |                   |                                           |        |
+|         |        |        |        |        |        |        | [Day 23](#day-23) | [Day 22](#day-22-friday-february-20-2022) | Day 21 |
+| Day 20  | Day 19 | Day 18 | Day 17 | Day 16 | Day 15 | Day 14 | Day 13            | Day 12                                    | Day 11 |
+| Day 10  | Day 9  | Day 8  | Day 7  | Day 6  | Day 5  | Day 4  | Day 3             | Day 2                                     | Day 1  |
 
 # 100 Days Of Code - Log
 
