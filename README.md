@@ -12,25 +12,25 @@
 
 ## Table of contents
 
-| Day 100 |        |        |        |        |        |        |                   |                                           |        |
-| ------- | ------ | ------ | ------ | ------ | ------ | ------ | ----------------- | ----------------------------------------- | ------ |
-|         |        |        |        |        |        |        |                   |                                           |        |
-|         |        |        |        |        |        |        |                   |                                           |        |
-|         |        |        |        |        |        |        |                   |                                           |        |
-|         |        |        |        |        |        |        |                   |                                           |        |
-|         |        |        |        |        |        |        |                   |                                           |        |
-|         |        |        |        |        |        |        |                   |                                           |        |
-|         |        |        |        |        |        |        | [Day 23](#day-23) | [Day 22](#day-22-friday-february-20-2022) | Day 21 |
-| Day 20  | Day 19 | Day 18 | Day 17 | Day 16 | Day 15 | Day 14 | Day 13            | Day 12                                    | Day 11 |
-| Day 10  | Day 9  | Day 8  | Day 7  | Day 6  | Day 5  | Day 4  | Day 3             | Day 2                                     | Day 1  |
+| Day 100                                   |        |        |        |        |        |        |                   |                                           |                                             |
+| ----------------------------------------- | ------ | ------ | ------ | ------ | ------ | ------ | ----------------- | ----------------------------------------- | ------------------------------------------- |
+|                                           |        |        |        |        |        |        |                   |                                           |                                             |
+|                                           |        |        |        |        |        |        |                   |                                           |                                             |
+|                                           |        |        |        |        |        |        |                   |                                           |                                             |
+|                                           |        |        |        |        |        |        |                   |                                           |                                             |
+|                                           |        |        |        |        |        |        |                   |                                           |                                             |
+|                                           |        |        |        |        |        |        |                   |                                           |                                             |
+|                                           |        |        |        |        |        |        | [Day 23](#day-23) | [Day 22](#day-22-sunday-february-20-2022) | [Day 21](#day-21-saturday-february-19-2022) |
+| [Day 20](#day-20-friday-february-18-2022) | Day 19 | Day 18 | Day 17 | Day 16 | Day 15 | Day 14 | Day 13            | Day 12                                    | Day 11                                      |
+| Day 10                                    | Day 9  | Day 8  | Day 7  | Day 6  | Day 5  | Day 4  | Day 3             | Day 2                                     | Day 1                                       |
 
 # 100 Days Of Code - Log
 
-## Day 23
+## Day 23: Friday, February 21, 2022
 
-### Friday, February 21, 2022
+Ik started the day with Markdown, creating the ToC on top of this README.me document.
 
-## Day 22: Friday, February 20, 2022
+## Day 22: Sunday, February 20, 2022
 
 ![Day 22](https://github.com/royschrauwen/100-days-of-code/blob/master/day-22/tweet-day22.png?raw=true)
 
